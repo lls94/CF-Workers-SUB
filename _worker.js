@@ -234,6 +234,7 @@ export default {
 								"enabled": true,
 								"server": "ntp.aliyun.com",
 								"server_port": 123,
+								"port":123,
 								"interval": "30m",
 								"detour": "DIRECT"
 							},
