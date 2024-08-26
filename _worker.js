@@ -232,15 +232,20 @@ export default {
 							...JSON.parse(subconverterContent),
 							"ntp": {
 								"enabled": true,
-								"server": "ntp1.aliyun.com",
+								"server": "ntp.aliyun.com",
 								"server_port": 123,
 								"interval": "30m",
 								"detour": "DIRECT"
 							},
+							"log": {
+								"disabled": false,
+								"level": "error",
+								"timestamp": true
+							},
 						});
 					}
 
-				} catch (error) {	}
+				} catch (error) { }
 
 
 				if (订阅格式 == 'clash') subconverterContent =await clashFix(subconverterContent);
