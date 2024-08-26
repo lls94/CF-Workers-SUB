@@ -232,7 +232,7 @@ export default {
 							...JSON.parse(subconverterContent),
 							"ntp": {
 								"enabled": true,
-								"server": "time.windows.com",
+								"server": "ntp1.aliyun.com",
 								"server_port": 123,
 								"interval": "30m",
 								"detour": "DIRECT"
