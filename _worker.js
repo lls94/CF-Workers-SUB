@@ -225,6 +225,24 @@ export default {
 					//throw new Error(`Error fetching subconverterUrl: ${subconverterResponse.status} ${subconverterResponse.statusText}`);
 				}
 				let subconverterContent = await subconverterResponse.text();
+
+				try {
+					if (订阅格式 == 'singbox') {
+						subconverterContent = JSON.stringify({
+							...JSON.parse(subconverterContent),
+							"ntp": {
+								"enabled": true,
+								"server": "time.windows.com",
+								"server_port": 123,
+								"interval": "30m",
+								"detour": "DIRECT"
+							},
+						});
+					}
+
+				} catch (error) {	}
+
+
 				if (订阅格式 == 'clash') subconverterContent =await clashFix(subconverterContent);
 				return new Response(subconverterContent, {
 					headers: { 
