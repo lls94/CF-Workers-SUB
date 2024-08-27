@@ -18,6 +18,18 @@ vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&s
 https://sub.xf.free.hr/auto
 `
 
+MainData = [
+	"https://moistr.freenods.sbs/mianfeicf", //Moist_R 优选订阅
+	"https://lls-edgetunnel.pages.dev/ac61f2ff-5755-4c82-8fdd-2563f0c81ce1", //lls-edgetunnel
+	"https://3k.fxxk.dedyn.io/auto",//CM 镜像订阅1
+	"https://vless.fxxk.dedyn.io/auto", //CM 优选订阅1
+	"https://tg.cmliussss.us.kg/auto",//CM 优选订阅2
+	"https://sub.kaiche.tk/?token=auto",//OTC 汇聚订阅
+	"https://alvless.comorg.us.kg/TCorg", //天诚 优选订阅
+	"https://king361.fxxk.dedyn.io/auto", //CM 镜像订阅2
+	"https://vmess.fxxk.dedyn.io/auto"//CM 优选订阅3
+].join('\n');
+
 let urls = [];
 let subconverter = "SUBAPI.fxxk.dedyn.io"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
 let subconfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini"; //订阅配置文件
