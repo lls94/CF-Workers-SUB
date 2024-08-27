@@ -239,7 +239,7 @@ export default {
 							},
 							"log": {
 								"disabled": false,
-								"level": "error",
+								"level": "warn",
 								"timestamp": true
 							},
 						});
