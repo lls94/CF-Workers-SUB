@@ -23,7 +23,7 @@ MainData=[
 	// "https://moistr.freenods.sbs/mianfeicf", //Moist_R 优选订阅
 	// "https://3k.fxxk.dedyn.io/auto",//CM 镜像订阅1
 	// "https://vless.fxxk.dedyn.io/auto", //CM 优选订阅1
-	// "https://tg.cmliussss.us.kg/auto",//CM 优选订阅2
+	"https://tg.cmliussss.us.kg/auto",//CM 优选订阅2
 	// "https://sub.kaiche.tk/?token=auto",//OTC 汇聚订阅
 	// "https://alvless.comorg.us.kg/TCorg", //天诚 优选订阅
 	// "https://king361.fxxk.dedyn.io/auto", //CM 镜像订阅2
