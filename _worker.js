@@ -241,7 +241,7 @@ export default {
 						subconverterContent = JSON.stringify({
 							...JSON.parse(subconverterContent),
 							"ntp": {
-								"enabled": true,
+								"enabled": false,
 								"server": "ntp.aliyun.com",
 								"server_port": 123,
 								"interval": "30m",
