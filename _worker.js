@@ -28,7 +28,7 @@ MainData=[
 	// "https://alvless.comorg.us.kg/TCorg", //天诚 优选订阅
 	// "https://king361.fxxk.dedyn.io/auto", //CM 镜像订阅2
 	// "https://vmess.fxxk.dedyn.io/auto",//CM 优选订阅3
-	"https://lls-workervless2sub.pages.dev/lls1994"
+	// "https://lls-workervless2sub.pages.dev/lls1994"
 ].join('\n');
 
 let urls = [
