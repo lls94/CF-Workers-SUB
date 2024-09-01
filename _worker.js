@@ -21,7 +21,7 @@ https://sub.xf.free.hr/auto
 MainData=[
 	"https://lls-edgetunnel.pages.dev/ac61f2ff-5755-4c82-8fdd-2563f0c81ce1", //lls-edgetunnel
 	"https://moistr.freenods.sbs/mianfeicf", //Moist_R 优选订阅
-	"https://3k.fxxk.dedyn.io/auto",//CM 镜像订阅1
+	// "https://3k.fxxk.dedyn.io/auto",//CM 镜像订阅1
 	// "https://vless.fxxk.dedyn.io/auto", //CM 优选订阅1
 	// "https://tg.cmliussss.us.kg/auto",//CM 优选订阅2
 	// "https://sub.kaiche.tk/?token=auto",//OTC 汇聚订阅
