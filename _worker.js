@@ -19,7 +19,7 @@ https://sub.xf.free.hr/auto
 `
 
 MainData = [
-	"tg://socks5?server=127.0.0.1&port=40000&remarks=WRAP-Plus",
+	// "tg://socks5?server=127.0.0.1&port=40000&remarks=WRAP-Plus",
 	"https://lls-edgetunnel.pages.dev/ac61f2ff-5755-4c82-8fdd-2563f0c81ce1", //lls-edgetunnel
 	"https://moistr.freenods.sbs/mianfeicf", //Moist_R 优选订阅
 	// "https://3k.fxxk.dedyn.io/auto",//CM 镜像订阅1
